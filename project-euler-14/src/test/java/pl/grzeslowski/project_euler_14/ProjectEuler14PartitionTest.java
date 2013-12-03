@@ -11,10 +11,10 @@ import org.junit.runners.Parameterized.Parameters;
 
 @RunWith(value = Parameterized.class)
 public class ProjectEuler14PartitionTest {
-    private final int in;
+    private final long in;
     private final long out;
 
-    public ProjectEuler14PartitionTest(final int in, final long out) {
+    public ProjectEuler14PartitionTest(final long in, final long out) {
         this.in = in;
         this.out = out;
     }
@@ -22,7 +22,8 @@ public class ProjectEuler14PartitionTest {
     @Parameters
     public static Collection<Object[]> data() {
         final Object[][] data = new Object[][] { { 1, 1L }, { 3, 8L },
-                { 6, 9L }, { 9, 20L }, { 8, 17L } };
+                { 6, 9L }, { 9, 20L }, { 8, 17L }, { 10, 20L }, { 11, 20L },
+                { 12, 20L }, { 13, 20L } };
         return Arrays.asList(data);
     }
 
