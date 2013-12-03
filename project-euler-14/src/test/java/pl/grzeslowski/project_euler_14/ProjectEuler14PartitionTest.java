@@ -21,7 +21,8 @@ public class ProjectEuler14PartitionTest {
 
     @Parameters
     public static Collection<Object[]> data() {
-        final Object[][] data = new Object[][] { { 1, 4L }, {3, 8L}, {6, 9L}, {9, 20L} };
+        final Object[][] data = new Object[][] { { 1, 1L }, { 3, 8L },
+                { 6, 9L }, { 9, 20L }, { 8, 17L } };
         return Arrays.asList(data);
     }
 
