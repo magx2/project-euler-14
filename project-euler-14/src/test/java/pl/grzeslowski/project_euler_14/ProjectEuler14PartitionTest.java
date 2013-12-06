@@ -23,7 +23,8 @@ public class ProjectEuler14PartitionTest {
     public static Collection<Object[]> data() {
         final Object[][] data = new Object[][] { { 1, 1L }, { 3, 8L },
                 { 6, 9L }, { 9, 20L }, { 8, 17L }, { 10, 20L }, { 11, 20L },
-                { 12, 20L }, { 13, 20L } };
+                { 12, 20L }, { 13, 20L }, { 14, 20L }, { 15, 20L },
+                { 16, 20L }, { 17, 20L }, { 18, 21L } };
         return Arrays.asList(data);
     }
 
